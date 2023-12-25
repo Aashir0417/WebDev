@@ -1,0 +1,63 @@
+.header  {
+     
+    background-color : #f0efef;
+    
+}
+
+.logo-text {
+    color:blue;
+    font-size: 45px;
+    padding-top: 18px;
+    margin-left: 60px;
+}
+
+.header-links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+
+.header-links-wrapper li {
+    list-style: none;
+   
+}
+
+
+.header-links-wrapper li a {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+}
+
+
+.header-links-wrapper li a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+.appointment-btn {
+    background-color:blue;
+    padding:30px;
+}
+
+.appointment-text {
+    color: white !important;
+}
+
+  
+
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-menu {display: block;}
+  
+.dropdown-item:hover {
+    background-color: rgba(220, 205, 205, 0.963) !important;
+    color: black !important;
+}
+
+
+.dropdown:hover {
+    color: blue;
+} 
